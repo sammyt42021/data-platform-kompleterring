@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "product-finder-etl"
 version = "1.0.0"
-description = "Beginner ETL project with CSV, EDA, PostgreSQL, Kafka, and FastAPI"
+description = "ETL project with CSV, EDA, PostgreSQL, Kafka, and FastAPI"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
