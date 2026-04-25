@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "product-finder-etl"
+version = "1.0.0"
+description = "Beginner ETL project with CSV, EDA, PostgreSQL, Kafka, and FastAPI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2.0,<3.0.0",
+  "fastapi>=0.109.0,<1.0.0",
+  "uvicorn>=0.30.0,<1.0.0",
+  "kafka-python>=2.0.2,<3.0.0",
+  "psycopg[binary]>=3.2.0,<4.0.0",
+  "pydantic>=2.7.0,<3.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0,<9.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
