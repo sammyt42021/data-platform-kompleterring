@@ -1,5 +1,3 @@
-"""Simple ETL transform step with EDA outputs."""
-
 from pathlib import Path
 import json
 

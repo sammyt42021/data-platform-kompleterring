@@ -1,5 +1,3 @@
-"""Run the full beginner ETL flow in one command."""
-
 import subprocess
 import sys
 
