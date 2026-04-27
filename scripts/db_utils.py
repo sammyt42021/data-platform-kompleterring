@@ -1,3 +1,5 @@
+"""Database helpers used by ETL scripts."""
+
 import os
 from pathlib import Path
 

@@ -1,3 +1,5 @@
+"""Load ETL outputs into PostgreSQL tables."""
+
 from pathlib import Path
 
 import pandas as pd

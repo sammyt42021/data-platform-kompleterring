@@ -1,3 +1,5 @@
+"""Generate a raw CSV with some intentional dirty rows."""
+
 from pathlib import Path
 import random
 
@@ -27,7 +29,7 @@ def build_rows(total_rows: int = 60) -> list[dict[str, object]]:
             }
         )
 
-    # Add dirty rows.
+    # Add dirty rows to make transform step meaningful.
     rows.extend(
         [
             {
